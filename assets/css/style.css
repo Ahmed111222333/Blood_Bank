@@ -1,4 +1,7 @@
-                .fl{
+.row{
+    text-align: right;
+}
+.fl{
                     float: left;
                 }
                 .ep{
@@ -632,7 +635,7 @@ p{
     justify-content: right;
 }
 
-.intro .carousel .carousel-inner .carousel-item .info h3{
+.intro .carousel .carousel-inner .carousel-item .info h4{
     color: #a70f14;
     font-weight: 700;
 }
@@ -640,7 +643,7 @@ p{
 .intro .carousel .carousel-inner .carousel-item .info p{
     color: #2d3e50;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 2;
     margin-bottom: 40px;
 }
@@ -701,6 +704,7 @@ p{
 
 .articles .title{
     position: relative;
+    text-align: right;
 }
 
 .articles .head-text{
@@ -737,24 +741,6 @@ p{
 .articles .view .articles-carousel .card .card-body p{
     color: #363636;
 }
-
-.articles .view .articles-carousel .card .card-body a{
-    width: 50%;
-    display: block;
-    margin: auto;
-    text-align: center;
-    background-color: #2d3e50;
-    padding: 10px;
-    color: #FFF;
-    text-decoration: none;
-}
-
-.articles .view .articles-carousel .card .card-body a:hover{
-    color: #2d3e50;
-    background-color: #f5f5f5;
-    transition: all 0.25s ease-in-out;
-}
-
 .articles .view .articles-carousel .owl-nav{
     display: inline-block;
     position: absolute;
@@ -1789,6 +1775,7 @@ select{
 
 .who-are-us .about-us .details .text p{
     margin-bottom: 20px;
+    text-align: right;
 }
 
 @media (max-width: 500px){
@@ -1799,4 +1786,13 @@ select{
     .who-are-us .about-us .details .logo img{
         width: 250px;
     }
+}
+.info .col-md-4 {
+    float: right;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
 }
