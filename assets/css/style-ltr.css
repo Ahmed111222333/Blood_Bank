@@ -311,4 +311,6 @@
     transform: scale(1);
     transition: all 0.25s ease-in-out;
 }
-
+.articles .title{
+    text-align: left;
+}
