@@ -210,9 +210,9 @@ p {
 }
 
 .footer {
-    /* background-color: #1a1f25; */
-    background-image: url(../../imgs/1911.i029.021_realistic\ blood\ donor\ horizontal\ poster.jpg);
-    padding: 5% 0;
+    background-color: #92989f;
+    /* background-image: url(../../imgs/1911.i029.021_realistic\ blood\ donor\ horizontal\ poster.jpg); */
+    padding: 3% 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -240,7 +240,7 @@ p {
 
 .footer .details p {
     line-height: 2;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .footer .pages {
