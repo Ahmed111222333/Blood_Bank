@@ -1,316 +1,445 @@
                 /*--------------------------------public settings--------------------------------------*/
-
-/*upper-bar*/
-.upper-bar .info, .upper-bar .accounts{
-    justify-content: flex-end;
-}
-
-/*navbar*/
-.nav-bar .navbar .navbar-brand{
-    margin-left: 0;
-    margin-right: 20px;
-}
-
-.nav-bar .navbar .navbar-nav{
-    margin-left: 0;
-    margin-right: auto;
-}
-
-.nav-bar .navbar ul li{
-    margin-left: 0;
-    margin-right: 2px;
-}
-
-.nav-bar .navbar ul li a{
-    border-left: none;
-    border-right: 1px solid #f0f0f0;
-}
-
-.nav-bar .donate{
-    padding-right: 0;
-    padding-left: 30px;
-}
-
-.nav-bar .donate p{
-    font-size: 18px;
-}
-
-.nav-bar .donate img{
-    right: auto;
-    left: 5px;
-}
-
-
-/*footer*/
-.footer .other .social .icons a{
-    margin-left: 0;
-    margin-right: 20px;
-}
-
-.footer .pages .list-group{
-    font-size: 18px;
-}
-
-.footer .stores p,
-.footer .other .rights p{
-    font-size: 18px;
-}
-
-.upper-bar .accounts .create-new,
-.upper-bar .accounts .signin{
-    font-weight: 600;
-}
-
-.upper-bar .accounts .create-new{
-    margin: 0;
-}
-
-.upper-bar .accounts .signin{
-    
-    margin-left: 30px;
-}
-
-
-/*breadcrumb*/
-.path .breadcrumb{
-    font-size: 18px;
-}
-
-/*media*/
-@media (max-width: 500px){
-    /*navbar*/
-    .nav-bar .donate {
-        margin-right: 0;
-        margin-left: 20px;
-    }
-    
-    /*breadcrumb*/
-    .path .breadcrumb {
-        padding: 20px;
-    }
-    
-}
-
-
-
-                    /*--------------------------------home page--------------------------------------*/
-
-/*intro*/
-.intro .carousel .carousel-inner .carousel-1{
-    background-image: url(../../imgs/header1-ltr.jpg);
-    background-position: right;
-}
-
-.intro .carousel .carousel-inner .carousel-2{
-    background-image: url(../../imgs/header1-ltr.jpg);
-    background-position: right;
-}
-
-.intro .carousel .carousel-inner .carousel-3{
-    background-image: url(../../imgs/header1-ltr.jpg);
-    background-position: right;
-}
-
-/*media*/
-@media (max-width: 500px){
-    /*----------intro----------*/
-    .intro .carousel .carousel-inner .carousel-1{
-        background-image: url(../../imgs/BG1.jpg);
-    }
-
-    .intro .carousel .carousel-inner .carousel-2{
-        background-image: url(../../imgs/BG1.jpg);
-    }
-
-    .intro .carousel .carousel-inner .carousel-3{
-        background-image: url(../../imgs/BG1.jpg);
-    }
-}
-
-
-/*about*/
-.about {
-    background-image: url(../../imgs/about2-ltr.png);
-}
-
-/*media*/
-@media (max-width: 500px){
-    .about{
-        background-image: url(../../imgs/about3.jpg);
-    }
-    
-    .about span{
-        color: #a70f14;
-    }
-    
-    .about p{
-        color: #FFF;
-        font-weight: 600;
-    }
-}
-
-
-/*articles*/
-.articles .head-text{
-    padding-left: 0;
-    padding-right: 30px;
-}
-
-.articles .view .articles-carousel .owl-nav{
-    right: 0;
-    left: auto;
-}
-
-.articles .view .articles-carousel .card .card-body p{
-    font-size: 18px;
-}
-
-
-/*requests*/
-.requests .head-text{
-    width: 250px;
-}
-
-.requests .content .filter  .form-group .inside-select .form-control{
-    padding: 0;
-    padding-left: 25px;
-}
-
-.requests .content .filter .form-group .inside-select i{
-    left: auto;
-    right: 25px;
-    border-right: none;
-    padding-right: 0;
-    border-left: 1px solid #eaeaea;
-    padding-left: 20px;
-}
-
-.requests .content .patients .details{
-    padding: 8px;
-    padding-left: none;
-    padding-right: 40px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
-}
-
-.requests .content .patients .details ul{
-    margin-right: auto;
-    margin-left: 70px;
-    font-weight: 600;
-}
-
-/*media*/
-@media (max-width: 500px){
-    .requests .content .patients .details{
-        padding: 10px;
-        padding-bottom: 40px;
-        display: inline-block;
-        border-top-right-radius: 200px;
-        border-top-left-radius: 200px;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-    }
-    
-    .requests .content .patients .details ul{
-        margin-left: 10px;
-    }
-}
-
-
-/*contact*/
-.contact{
-    background-image: url(../../imgs/call-ltr.jpg);
-    background-position: right;
-}
-
-/*media*/
-@media(max-width: 500px){
-    .contact {
-    background-image: url(../../imgs/BG1.jpg);
-    }
-    
-    .contact .whatsapp{
-        display: flex;
-        margin: 50px 0;
-        width: 80%;
-        align-items: center;
-    }
-}
-
-@media (max-width:500px){
-    .contact .whatsapp {
-        display: flex;
-        margin: 50px 70px;
-        width: 80%;
-        align-items: center;
-    }
-}
-
-
-
+                /*navbar*/
+                
+                .nav-bar .navbar .navbar-brand {
+                    margin-left: 0;
+                    margin-right: 20px;
+                }
+                
+                .nav-bar .navbar .navbar-nav {
+                    margin-left: 0;
+                    margin-right: auto;
+                }
+                
+                .nav-bar .navbar ul li {
+                    margin-left: 0;
+                    margin-right: 2px;
+                }
+                
+                .nav-bar .navbar ul li a {
+                    border-left: none;
+                    border-right: 1px solid #f0f0f0;
+                }
+                
+                .nav-bar .donate {
+                    padding-right: 0;
+                    padding-left: 30px;
+                }
+                
+                .nav-bar .donate p {
+                    font-size: 18px;
+                }
+                
+                .nav-bar .donate img {
+                    right: auto;
+                    left: 5px;
+                }
+                /*footer*/
+                
+                .footer .pages .list-group {
+                    font-size: 18px;
+                }
+                
+                .footer .stores p,
+                .footer .other .rights p {
+                    font-size: 18px;
+                }
+                
+                .upper-bar .accounts .create-new,
+                .upper-bar .accounts .signin {
+                    font-weight: 600;
+                }
+                
+                .upper-bar .accounts .create-new {
+                    margin: 0;
+                }
+                
+                .upper-bar .accounts .signin {
+                    margin-left: 30px;
+                }
+                /*breadcrumb*/
+                
+                .path .breadcrumb {
+                    font-size: 18px;
+                }
+                /*media*/
+                
+                @media (max-width: 500px) {
+                    /*navbar*/
+                    .nav-bar .donate {
+                        margin-right: 0;
+                        margin-left: 20px;
+                    }
+                    /*breadcrumb*/
+                    .path .breadcrumb {
+                        padding: 20px;
+                    }
+                }
+                
+                @media (max-width: 500px) {
+                    .signin-account .form {
+                        padding: 50px 0;
+                    }
+                    .signin-account .form .signin-form form {
+                        padding: 10px;
+                    }
+                    .signin-account .form .signin-form form .logo {
+                        padding: 0 50px;
+                    }
+                    .signin-account .form .signin-form form .options .col-md-6 {
+                        margin: 20px 0;
+                    }
+                    .signin-account .form .signin-form form .options .remember,
+                    .signin-account .form .signin-form form .options .forgot {
+                        display: flex;
+                        justify-content: flex-start;
+                    }
+                    .signin-account .form .signin-form form .buttons .right,
+                    .signin-account .form .signin-form form .buttons .left {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .signin-account .form .signin-form form .buttons .right a,
+                    .signin-account .form .signin-form form .buttons .left a {
+                        width: 100%;
+                    }
+                }
+                /*--------------------------------home page--------------------------------------*/
+                /*intro*/
+                
+                .intro .carousel .carousel-inner .carousel-1 {
+                    background-image: url(../../imgs/pexels-artem-podrez-6823564.jpg);
+                }
+                
+                .intro .carousel .carousel-inner .carousel-2 {
+                    background-image: url(../../imgs/pexels-artem-podrez-6823564.jpg);
+                }
+                
+                .intro .carousel .carousel-inner .carousel-3 {
+                    background-image: url(../../imgs/pexels-artem-podrez-6823564.jpg);
+                }
+                
+                .intro .carousel .carousel-inner .carousel-item .info {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: right;
+                    position: relative;
+                    z-index: 9999;
+                }
+                
+                .intro .carousel .carousel-inner .carousel-item .info h4 {
+                    color: #f6d167;
+                    font-weight: 700;
+                    text-align: center;
+                    box-shadow: 0px 4px 5px rgba(245, 245, 245, 0.02);
+                }
+                
+                .intro .carousel .carousel-inner .carousel-item .info p {
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 2;
+                    margin-bottom: 40px;
+                    text-align: left;
+                }
+                
+                .about {
+                    background-image: url(../../imgs/Blood-Donation-red-background.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding: 10% 0;
+                }
+                
+                .about span {
+                    color: #297f87;
+                    font-weight: bold;
+                }
+                
+                .about p {
+                    font-size: 23px;
+                    line-height: 2;
+                    margin: 0;
+                    color: #fff;
+                    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
+                }
+                
+                .articles .head-text {
+                    padding-left: 0;
+                    padding-right: 30px;
+                }
+                
+                .articles .view .articles-carousel .owl-nav {
+                    right: 0;
+                    left: auto;
+                }
+                
+                .articles .view .articles-carousel .card .card-body p {
+                    font-size: 18px;
+                }
+                /*requests*/
+                
+                .requests .head-text {
+                    width: 250px;
+                }
+                
+                .requests .content .filter .form-group .inside-select .form-control {
+                    padding: 0;
+                    padding-left: 25px;
+                }
+                
+                .requests .content .filter .form-group .inside-select i {
+                    left: auto;
+                    right: 25px;
+                    border-right: none;
+                    padding-right: 0;
+                    border-left: 1px solid #eaeaea;
+                    padding-left: 20px;
+                }
+                
+                .requests .content .patients .details {
+                    padding: 8px;
+                    padding-left: none;
+                    padding-right: 40px;
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    border-top-left-radius: 100px;
+                    border-bottom-left-radius: 100px;
+                }
+                
+                .requests .content .patients .details ul {
+                    margin-right: auto;
+                    margin-left: 70px;
+                    font-weight: 600;
+                }
+                /*media*/
+                
+                @media (max-width: 500px) {
+                    .requests .content .patients .details {
+                        padding: 10px;
+                        padding-bottom: 40px;
+                        display: inline-block;
+                        border-top-right-radius: 200px;
+                        border-top-left-radius: 200px;
+                        border-bottom-right-radius: 0;
+                        border-bottom-left-radius: 0;
+                    }
+                    .requests .content .patients .details ul {
+                        margin-left: 10px;
+                    }
+                }
+                /*contact*/
+                
+                .contact {
+                    background-image: url(../../imgs/call-ltr.jpg);
+                    background-position: right;
+                }
                 /*--------------------------------create account page--------------------------------------*/
-
-.create .form .account-form form .create-btn a{
-    font-weight: 600;
-}
-
-
-
+                
+                .create .form .account-form form .create-btn a {
+                    font-weight: 600;
+                }
                 /*--------------------------------signin account page--------------------------------------*/
-
-.signin-account .form .signin-form form .options .forgot img{
-    margin-left: 0;
-    margin-right: 10px;
-}
-
-.signin-account .form .signin-form form .options .remember .form-check .form-check-label{
-    margin-right: 0;
-    margin-left: 25px;
-}
-
-
-
+                
+                .signin-account .form .signin-form form .options .forgot img {
+                    margin-left: 0;
+                    margin-right: 10px;
+                }
+                
+                .signin-account .form .signin-form form .options .remember .form-check .form-check-label {
+                    margin-right: 0;
+                    margin-left: 25px;
+                }
                 /*--------------------------------article details page--------------------------------------*/
-
-.article-details .inside-article .text{
-    font-weight: 600;
-}
-
-
-
+                
+                .article-details .inside-article .text {
+                    font-weight: 600;
+                }
                 /*--------------------------------who are us page--------------------------------------*/
-
-.who-are-us .about-us .details .text p{
-    font-weight: 600;
-}
-.info .col-md-4{
-    float: left;
-    text-align: left;
-}
-.articles .view .articles-carousel .card .photo .click {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 4;
-    background-color: rgba(167,15,20,.4);
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    color: #FFF;
-    text-decoration: none;
-    transform: scale(0);
-}
-.articles .view .articles-carousel .card .photo:hover .click{
-    opacity: 1;
-    transform: scale(1);
-    transition: all 0.25s ease-in-out;
-}
-.articles .title{
-    text-align: left;
-}
+                
+                .who-are-us .about-us .details .text p {
+                    font-weight: 600;
+                    text-align: left;
+                    padding: 0 7% 0;
+                }
+                
+                .info .col-md-4 {
+                    float: left;
+                    text-align: left;
+                }
+                
+                .articles .view .articles-carousel .card .photo .click {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    z-index: 4;
+                    background-color: rgba(167, 15, 20, .4);
+                    opacity: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 25px;
+                    color: #FFF;
+                    text-decoration: none;
+                    transform: scale(0);
+                }
+                
+                .articles .view .articles-carousel .card .photo:hover .click {
+                    opacity: 1;
+                    transform: scale(1);
+                    transition: all 0.25s ease-in-out;
+                }
+                
+                .articles .title {
+                    text-align: left;
+                }
+                
+                .overlay2 {
+                    position: relative;
+                    z-index: 0;
+                }
+                
+                .overlay2::after {
+                    position: absolute;
+                    content: "";
+                    background-color: #000;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 5;
+                    opacity: 0.18;
+                }
+                
+                .about.overlay2 .container {
+                    position: relative;
+                    z-index: 999;
+                }
+                
+                @media (max-width: 767px) {
+                    .city {
+                        margin-top: 4% !important;
+                    }
+                    .search {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 3% !important;
+                    }
+                }
+                
+                .profile-card {
+                    text-align: center;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
+                }
+                
+                .card-header {
+                    background: #297f87;
+                    padding: 8% 5%;
+                }
+                
+                .pic {
+                    display: inline-block;
+                    padding: 8px;
+                    background: linear-gradient(130deg, #fff7ae, #df2e2e);
+                    margin: auto;
+                    border-radius: 50%;
+                    background-size: 200% 200%;
+                    animation: animated-gradient 2s linear infinite;
+                }
+                
+                @keyframes animated-gradient {
+                    25% {
+                        background-position: left bottom;
+                    }
+                    50% {
+                        background-position: right bottom;
+                    }
+                    75% {
+                        background-position: right top;
+                    }
+                    100% {
+                        background-position: left top;
+                    }
+                }
+                
+                .pic {
+                    display: flex;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .name {
+                    color: #f2f2f2;
+                    font-weight: 600;
+                    margin: 10px 0;
+                }
+                
+                .desc {
+                    color: #f6d167;
+                }
+                
+                .border {
+                    width: 1px;
+                    height: 30px;
+                    background: #bbb;
+                }
+                
+                .det-btn {
+                    display: inline-block;
+                    padding: 2% 5%;
+                    color: #fff7ae;
+                    border: 2px solid #fff7ae;
+                    border-radius: 6px;
+                    margin-top: 16px;
+                    transition: 0.3s linear;
+                    background: transparent;
+                }
+                
+                .det-btn:hover {
+                    background: #fff7ae;
+                    color: #000;
+                }
+                
+                .donation-requests .requests .content button {
+                    color: #297f87;
+                    background-color: #fff7ae;
+                    border: none;
+                    padding: 1% 3%;
+                }
+                
+                .pagination {
+                    margin-top: 2% !important;
+                }
+                
+                .pagination li {
+                    display: inline;
+                    margin-left: 1%;
+                    padding: 0.5% 1.5%;
+                }
+                
+                .pagination li a {
+                    font-size: 1.5rem;
+                    color: #3a5e77;
+                    text-decoration: none;
+                    font-weight: 700;
+                    text-align: center;
+                }
+                
+                .pagination li.active {
+                    border-radius: 50%;
+                    background-color: #e8d170;
+                }
+                
+                .intro .info h3 {
+                    color: #f6d167 !important;
+                    font-weight: 700 !important;
+                    text-align: center !important;
+                    box-shadow: 0px 4px 5px rgb(245 245 245 / 2%) !important;
+                }
